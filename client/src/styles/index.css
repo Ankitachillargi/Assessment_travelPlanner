@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+}
+
+* {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.3em;
+}
+h3 {
+  font-size: 1.7em;
+}
+
+.App {
+  margin-bottom: 60px;
+}
+
+#root > div > div.Header-root-1 > header > div > button {
+  margin-right: 0;
+}
+
+/* ============== HEADER BAR ============== */
+#root
+  > div
+  > div.Header-root-1
+  > header
+  > div
+  > div.MuiGrid-root.Header-title-2.MuiGrid-container.MuiGrid-spacing-xs-3
+  > div:nth-child(1) {
+  padding-right: 0;
+}
+
+#root
+  > div
+  > div.Header-root-1
+  > header
+  > div
+  > div.MuiGrid-root.Header-title-2.MuiGrid-container.MuiGrid-spacing-xs-3
+  > div:nth-child(2) {
+  padding-left: 5px;
+}
+/* ============== END HEADER BAR ============== */
+/* ============== LANDING VIEW ============== */
+
+.Landing {
+  background-image: url('https://source.unsplash.com/A5rCN8626Ck');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+
+.MuiGrid-item.Jumbotron-wrapper {
+  display: block;
+  justify-content: center;
+  height: 300px;
+  margin: 10rem auto 0 auto;
+}
+
+#root > div > div.MuiGrid-root.Landing.MuiGrid-container > div > div {
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+#root > div > div.MuiGrid-root.Landing.MuiGrid-container div.icon-strip {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#root > div > div.MuiGrid-root.Landing.MuiGrid-container div.icon-strip > svg {
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+}
+
+#root
+  > div
+  > div.MuiGrid-root.Landing.MuiGrid-container
+  > div
+  > div
+  > div.MuiCardContent-root {
+  padding-bottom: 0;
+}
+
+/* ============== END LANDING VIEW============== */
+
+/* ============ FAVORITES VIEW =============== */
+.Favorites {
+  background-color: white;
+  height: 100%;
+  min-height: 100vh;
+  width: 97%;
+  max-width: 1000px;
+  margin: 70px auto 50px auto;
+  padding: 0 1.5%;
+}
+
+.Favorites-title {
+  color: #353b53;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#root > div > div.Favorites > div > img {
+  width: 250px;
+  height: 250px;
+}
+
+hr {
+  margin: 5px;
+}
+
+#root > div > div.Favorites > div > div {
+  margin-top: 10px;
+}
+/* ============ END FAVORIRES VIEW =========== */

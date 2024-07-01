@@ -1,0 +1,66 @@
+.Cities-searchBar {
+  padding: 20px;
+}
+
+#searchBar {
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #353b53;
+  border-radius: 5px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+#searchBar:focus {
+  outline: none;
+}
+
+#searchBar::placeholder {
+  color: #6e6e6e;
+}
+
+img.loaded {
+  display: none;
+}
+
+.Cities {
+  margin-top: 64px;
+  background-color: #ebebeb;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.Cities-cityList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.Cities-cityCard {
+  margin: 15px;
+  margin-top: 0;
+}
+
+#noResults {
+  background-color: rgb(247, 217, 222);
+  color: rgb(62, 6, 17);
+  width: 400px;
+  height: 20px;
+  margin: 0 auto 200px auto;
+  display: none;
+}
+
+#noResults > p {
+  margin: 0;
+}
+
+.fontColor {
+  color: "#353b53" !important;
+  background-color: black !important;
+  margin: 10px 0px 0px 30px !important;
+}
